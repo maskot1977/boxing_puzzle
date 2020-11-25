@@ -8,4 +8,4 @@ for trial in range(10):
         same_piece_limit = 1,
         max_trial = 53000000000
     )
-    boxing.depict(matrix, "result{}.png".format(trial))
+    boxing.depict(matrix, "pentamino_{}.png".format(trial))
