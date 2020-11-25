@@ -2,7 +2,7 @@ import random
 import matplotlib.pyplot as plt
 import numpy as np
 
-def enumerate(
+def find_one(
     x_length = 8,
     y_length = 5,
     piece_size = 4,
