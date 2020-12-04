@@ -4,7 +4,7 @@ import pandas as pd
 from boxing_puzzle import boxing2
 
 os.system("mkdir tetromino/")
-for i, matrix in enumerate(find_some(
+for i, matrix in enumerate(boxing2.find_some(
         x_length = 8,
         y_length = 5,
         piece_size = 4,
