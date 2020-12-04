@@ -1,4 +1,6 @@
 import os
+import pandas as pd
+
 from boxing_puzzle import boxing2
 
 os.system("mkdir pentomino/")
