@@ -9,6 +9,6 @@ for i, matrix in enumerate(boxing2.find_some(
         y_length = 5,
         piece_size = 4,
         same_piece_limit = 2,
-        max_trial = 5
+        max_trial = 530000
     )):
     pd.DataFrame(matrix).to_csv("tetromino/{}.csv".format(i))
