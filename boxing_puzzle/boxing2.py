@@ -258,7 +258,7 @@ def find_some(x_length=8, y_length=5, piece_size=4, same_piece_limit=2, max_tria
 
     index = 0
     matrix_history = []
-    keta = int(x_length * y_length / piece_size)
+    keta = int(x_length * y_length / piece_size / 2)
     for matrix in half_puzzle(x_length, y_length, piece_size, same_piece_limit):
         for prev_matrix in matrix_history:
             matrix3 = np.flipud(np.fliplr(np.array(matrix)))
